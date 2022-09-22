@@ -2,37 +2,33 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainCakeDiv
+{
+  width: 80%;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.currentStateHeading
+{
+  font-size: 3vw;
+  font-weight: bolder;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.buyCakeBtn
+{
+  font-size: 1.8vw;
+  border: none;
+  cursor: pointer;
   color: white;
+  background-color: rgb(25, 190, 236);
+  width: 30%;
+  border-radius: 4px;
+  padding: 1% 0%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.errorMsg
+{
+  font-size: 2vw;
+  color: rgb(242, 23, 23);
+  font-weight: bolder;
 }
